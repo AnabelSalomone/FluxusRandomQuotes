@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding-top: 1.3em;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 6em;
+  text-align: center;
+  color: #3F3F3F;
+}
+
+h4 {
+  font-family: 'Cutive Mono', monospace;
+  padding-top: 3em;
+  color: #3F3F3F;
+}
+
+div {
+  padding-bottom: 5px;
+}
+
+button {
+  font-family: monospace;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  background-color: white;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: monospace;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+footer p {
+  margin-bottom: 4px;
+}
+
+.quote {
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.anim {
+  text-align: justify;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.3em;
+}
+
+.center {
+  text-align: center;
+}
+
+.page-content {
+  padding-bottom: 50px;
+}
+
+
+/*Set background to white of the footer, width to 100%, added a wrapper to the other page content and gave this one a padding-bottom to make the content scrollable enough to see it all*/
